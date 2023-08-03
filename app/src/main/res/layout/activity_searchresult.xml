@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bk"
+    android:layout_height="match_parent"
+    tools:context=".searchresult">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtown"
+            android:textColor="@color/black"
+            android:text="Owner Name     "
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtownername"
+            android:layout_marginLeft="28dp"
+            android:hint="Mr./Ms."
+            android:textColor="@color/black"
+            android:ems="8"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Registration no  "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtvhnumber"
+            android:layout_marginLeft="28dp"
+            android:hint="UP65CK6767"
+            android:ems="8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtbrand"
+            android:textColor="@color/black"
+            android:text="Brand Name     "
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtbrandname"
+            android:layout_marginLeft="28dp"
+            android:hint="Jaguar"
+            android:ems="8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtins"
+            android:textColor="@color/black"
+            android:text="Insurance Expiry"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinsurance"
+            android:layout_marginLeft="28dp"
+            android:hint="2023-08-25"
+            android:ems="8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcol"
+            android:textColor="@color/black"
+            android:text="Color                 "
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcolor"
+            android:layout_marginLeft="28dp"
+            android:hint="White"
+            android:ems="8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtfuel"
+            android:textColor="@color/black"
+            android:text="Fuel type            "
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtfueltype"
+            android:layout_marginLeft="28dp"
+            android:hint="Petrol"
+            android:ems="8"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"/>
+    </LinearLayout>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/btnregcomplain"
+       android:text="Register A complain"
+       android:layout_marginTop="60dp"
+       />
+</LinearLayout>

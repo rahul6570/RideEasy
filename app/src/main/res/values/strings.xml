@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RideEasy</string>
+    <string name="title_activity_ride_easy_map">RideEasyMap</string>
+</resources>

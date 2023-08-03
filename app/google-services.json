@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761845290429",
+    "project_id": "rideeasy-7879c",
+    "storage_bucket": "rideeasy-7879c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761845290429:android:c0f3ecfab7142374b96ed4",
+        "android_client_info": {
+          "package_name": "com.rahul.rideeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761845290429-jcp0siu3hu1r8s688a3qbhreh85tlv87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5tZfdm1fljuioYksuEjKfNhJYCKb21Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761845290429-jcp0siu3hu1r8s688a3qbhreh85tlv87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
