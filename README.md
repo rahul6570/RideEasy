@@ -10,6 +10,7 @@
 ## TechStacks & Libraries: 
 ### JAVA
 ### Android Studio
+### Firebase
 ### AndroidFastNetworking (https://github.com/amitshekhariitbhu/Fast-Android-Networking)
 ### SQLite Database
-### 
+### Firebase ML Kit
